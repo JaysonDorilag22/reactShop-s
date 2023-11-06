@@ -20,17 +20,8 @@ exports.registerUser = async (req, res, next) => {
         avatar: {
             public_id: result.public_id,
             url: result.secure_url
-        },
-        // role,
+        }
     })
-    //test token
-    //  const token = user.getJwtToken();
-
-    //   res.status(201).json({
-    //   	success:true,
-    //   	user,
-    //  	token
-    //   })
     sendToken(user, 200, res)
 }
 

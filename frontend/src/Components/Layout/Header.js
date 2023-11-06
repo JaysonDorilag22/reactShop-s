@@ -71,7 +71,7 @@ const Header = () => {
                     </div>) : <Link to="/login" className="btn ml-4" id="login_btn">Login</Link>}
 
                     <span id="cart" className="ml-3">Cart</span>
-                    <span className="ml-1" id="cart_count">2</span>
+                    <span className="ml-1" id="cart_count">0</span>
                 </div>
             </nav>
         </Fragment>
